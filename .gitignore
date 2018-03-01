@@ -1,22 +1,39 @@
-# Compiled class file
+!config/
+
+# Folders to ignore, whatever the place they are
+classes
+*/gensrc/*
+**/jalo/**
+
+# Filename patterns to ignore
 *.class
+extensioninfo.xsd
+hmc.xsd
+items.xsd
+beans.xsd
+platformhome.properties
+*testclasses.xml
+.project
+.springBeans
+.classpath
+.jar
 
-# Log file
-*.log
+config/hybris4intellij.properties
+build.xml
 
-# BlueJ files
-*.ctxt
+#  Addon specific copy folders
+**/_ui/addons
+**/views/addons
+**/tld/addons
+**/tags/addons
+**/messages/addons
+*_bof.jar
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+**/.settings/**
+**/lib/**
+**/.classpath /**
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+**/tcServer/**
+**/tomcat/**
+**/.externalToolBuilders/**
+**idea**
